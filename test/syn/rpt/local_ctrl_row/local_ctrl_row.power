@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : local_ctrl_row
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 19:32:11 2026
+****************************************
+
+
+Library(s) Used:
+
+    tcbn40lpbwpwc_ccs (File: /home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Front_End/timing_power_noise/CCS/tcbn40lpbwp_200a/tcbn40lpbwpwc_ccs.db)
+
+
+Operating Conditions: WCCOM   Library: tcbn40lpbwpwc_ccs
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+local_ctrl_row         ZeroWireload      tcbn40lpbwpwc_ccs
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+local_ctrl_row                         7.35e-03    0.202 2.36e+03    0.211 100.0
+1

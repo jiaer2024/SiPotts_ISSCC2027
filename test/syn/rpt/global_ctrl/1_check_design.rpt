@@ -1,0 +1,18 @@
+ 
+****************************************
+check_design summary:
+Version:     S-2021.06-SP1
+Date:        Tue Apr 28 19:22:52 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               4
+    Cells do not drive (LINT-1)                                     4
+--------------------------------------------------------------------------------
+
+Warning: In design 'global_ctrl', cell 'C828' does not drive any nets. (LINT-1)
+Warning: In design 'global_ctrl', cell 'C829' does not drive any nets. (LINT-1)
+Warning: In design 'global_ctrl', cell 'C851' does not drive any nets. (LINT-1)
+Warning: In design 'global_ctrl', cell 'C852' does not drive any nets. (LINT-1)
+1

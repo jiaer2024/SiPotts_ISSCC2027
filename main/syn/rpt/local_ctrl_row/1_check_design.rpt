@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     S-2021.06-SP1
+Date:        Tue Apr 28 13:15:14 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               2
+    Cells do not drive (LINT-1)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'local_ctrl_row', cell 'C8176' does not drive any nets. (LINT-1)
+Warning: In design 'local_ctrl_row', cell 'C8186' does not drive any nets. (LINT-1)
+1

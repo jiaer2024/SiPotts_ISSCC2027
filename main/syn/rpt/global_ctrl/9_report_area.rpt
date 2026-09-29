@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : global_ctrl
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 16:37:53 2026
+****************************************
+
+Library(s) Used:
+
+    tcbn40lpbwpwc_ccs (File: /home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Front_End/timing_power_noise/CCS/tcbn40lpbwp_200a/tcbn40lpbwpwc_ccs.db)
+
+Number of ports:                           67
+Number of nets:                           342
+Number of cells:                          305
+Number of combinational cells:            229
+Number of sequential cells:                76
+Number of macros/black boxes:               0
+Number of buf/inv:                         87
+Number of references:                      26
+
+Combinational area:                211.680004
+Buf/Inv area:                       77.792401
+Noncombinational area:             308.347197
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   520.027200
+Total area:                 undefined
+1

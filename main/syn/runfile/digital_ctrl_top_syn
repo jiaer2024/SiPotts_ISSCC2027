@@ -1,0 +1,4 @@
+mkdir -p work/digital_ctrl_top rpt/digital_ctrl_top output/digital_ctrl_top 
+
+clear
+time dc_shell-xg-t -64 -f script/digital_ctrl_top_script.tcl | tee -i logs/digital_ctrl_top.log

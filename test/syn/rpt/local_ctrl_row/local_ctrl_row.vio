@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : local_ctrl_row
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 19:32:11 2026
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   local_ctrl_row               0.00        3912.55       -3912.55  (VIOLATED)
+
+
+1

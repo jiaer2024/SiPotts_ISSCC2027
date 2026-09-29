@@ -1,0 +1,40 @@
+
+set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+set conf_qxconf_file {NULL}
+set conf_qxlib_file {NULL}
+set defHierChar {/}
+set distributed_client_message_echo {1}
+set distributed_mmmc_disable_reports_auto_redirection {0}
+set eco_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+set enc_enable_print_mode_command_reset_options 1
+
+# need to change
+set init_gnd_net {VSS AVSS DVSS}
+# need to change  (include both IO .lef and stdcell .lef)
+# set init_lef_file { \
+# /home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Back_End/lef/tcbn40lpbwp_120c/lef/HVH_0d5_0/tcbn40lpbwp_9lm6X2ZRDL.lef \
+# /home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpfn40lpgv2od3_130c/tpfn40lpgv2od3_120a_sefu9lm/TSMCHOME/digital/Back_End/lef/tpfn40lpgv2od3_120a/mt_2/9lm/lef/tpfn40lpgv2od3_9lm.lef \
+# /home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpan40lpgv2od3_130a/tpan40lpgv2od3_120a_sefn9lm/TSMCHOME/digital/Back_End/lef/tpan40lpgv2od3_120a/mt/9lm/lef/tpan40lpgv2od3_9lm.lef \
+# /home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_Bond/tpbn45v_140a_sefwb9m6x2z/TSMCHOME/digital/Back_End/lef/tpbn45v_140a/wb/9m/9M_6X2Z/lef/tpbn45v_9lm.lef \
+# /home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_Bond/tpbn45v_140a_sefcup9m6x2z/TSMCHOME/digital/Back_End/lef/tpbn45v_140a/cup/9m/9M_6X2Z/lef/tpbn45v_9lm.lef \
+# }
+set init_lef_file { \
+/home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Back_End/lef/tcbn40lpbwp_120c/lef/HVH_0d5_0/tcbn40lpbwp_9lm6X2ZRDL.lef \
+/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tphn40lpgv2od3_sl_270a/tphn40lpgv2od3_sl_210a_sefu9lm/TSMCHOME/digital/Back_End/lef/tphn40lpgv2od3_sl_210a/mt_2/9lm/lef/tphn40lpgv2od3_sl_9lm.lef \
+/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_Bond/tpbn45v_140a_sefwb9m6x2z/TSMCHOME/digital/Back_End/lef/tpbn45v_140a/wb/9m/9M_6X2Z/lef/tpbn45v_9lm.lef \
+/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_Bond/tpbn45v_140a_sefcup9m6x2z/TSMCHOME/digital/Back_End/lef/tpbn45v_140a/cup/9m/9M_6X2Z/lef/tpbn45v_9lm.lef \
+}
+# need to change
+set init_mmmc_file {enc_scripts/padframe/padframe_mmmc.view}
+# need to change
+set init_pwr_net {H_VDD HDVDD VDD AVDD }
+# need to change
+set init_verilog {../syn/output/padframe/padframe_gate.v}
+set init_io_file {./enc_scripts/padframe/padframe.io}
+set latch_time_borrow_mode max_borrow
+set pegDefaultResScaleFactor 1
+set pegDetailResScaleFactor 1
+set report_inactive_arcs_format {from to when arc_type sense reason}
+set soft_stack_size_limit {515}
+set tso_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+

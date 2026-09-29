@@ -1,0 +1,60 @@
+Loading db file '/opt/synopsys-new/design-compiler/installed/libraries/syn/gtech.db'
+Loading db file '/opt/synopsys-new/design-compiler/installed/libraries/syn/standard.sldb'
+  Loading link library 'tcbn40lpbwpwc_ccs'
+  Loading link library 'tpfn40lpgv2od3wc'
+  Loading link library 'tpan40lpgv2od3wc'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ./../verilog/rtl/local_ctrl_row.v:46: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/local_ctrl_row.v:84: signed to unsigned conversion occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine local_ctrl_row line 43 in file
+		'./../verilog/rtl/local_ctrl_row.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cnt_reg       | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine local_ctrl_row line 53 in file
+		'./../verilog/rtl/local_ctrl_row.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     cp_ctrl_reg     | Flip-flop |  420  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine local_ctrl_row line 61 in file
+		'./../verilog/rtl/local_ctrl_row.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     rd_vld_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine local_ctrl_row line 68 in file
+		'./../verilog/rtl/local_ctrl_row.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   rd_data_out_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine local_ctrl_row line 78 in file
+		'./../verilog/rtl/local_ctrl_row.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      p_out_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    phase_cnt_reg    | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    p_out_vld_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (local_ctrl_row)
+Elaborated 1 design.
+Current design is now 'local_ctrl_row'.
+1

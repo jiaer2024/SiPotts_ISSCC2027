@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : padframe
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 12:33:53 2026
+****************************************
+
+Operating Conditions: WCCOM   Library: tcbn40lpbwpwc_ccs
+Wire Load Model Mode: segmented
+
+  Startpoint: tst_couple_en
+              (input port)
+  Endpoint: pad_tst_couple_en
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  padframe           ZeroWireload          tcbn40lpbwpwc_ccs
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  tst_couple_en (in)                       0.00       0.00 r
+  io_tst_couple_en/PAD (PDO24CDG)          2.26       2.26 r
+  pad_tst_couple_en (out)                  0.00       2.26 r
+  data arrival time                                   2.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

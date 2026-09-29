@@ -1,0 +1,300 @@
+Information: Performing power optimization. (PWR-850)
+Analyzing: "/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpfn40lpgv2od3_130c/tpfn40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpfn40lpgv2od3_120a/tpfn40lpgv2od3wc.db"
+Analyzing: "/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpan40lpgv2od3_130a/tpan40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpan40lpgv2od3_120a/tpan40lpgv2od3wc.db"
+Analyzing: "/home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Front_End/timing_power_noise/CCS/tcbn40lpbwp_200a/tcbn40lpbwpwc_ccs.db"
+Library analysis succeeded.
+Information: Running optimization using a maximum of 16 cores. (OPT-1500)
+Warning: Setting attribute 'fix_multiple_port_nets' on design 'global_ctrl'. (UIO-59)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | S-2021.06-DWBB_202106.1 |     *     |
+| Licensed DW Building Blocks        | S-2021.06-DWBB_202106.1 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 4 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'global_ctrl'
+
+Warning: The trip points for the library named tpfn40lpgv2od3wc differ from those in the library named tcbn40lpbwpwc_ccs. (TIM-164)
+Warning: The trip points for the library named tpan40lpgv2od3wc differ from those in the library named tcbn40lpbwpwc_ccs. (TIM-164)
+  Loading target library 'tpfn40lpgv2od3wc'
+  Loading target library 'tpan40lpgv2od3wc'
+Warning: IO pad 'PVSS3DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS1DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2POC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD1DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMP2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMP1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVBUS' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB2AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB2A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB1AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB1A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMPAC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMPA' is unusable: unknown logic function.  (OPT-1022)
+Loaded alib file './alib-52/tcbn40lpbwpwc_ccs.db.alib'
+Loaded alib file './alib-52/tpfn40lpgv2od3wc.db.alib' (placeholder)
+Loaded alib file './alib-52/tpan40lpgv2od3wc.db.alib' (placeholder)
+Warning: Operating condition WCCOM set on design global_ctrl has different process,
+voltage and temperatures parameters than the parameters at which target library 
+tpfn40lpgv2od3wc is characterized. Delays may be inaccurate as a result. (OPT-998)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'global_ctrl'
+Information: Added key list 'DesignWare' to design 'global_ctrl'. (DDB-72)
+Information: In design 'global_ctrl', the register 'ul_cur_state_d1_reg[1]' is removed because it is merged to 'ul_cur_state_d1_reg[0]'. (OPT-1215)
+ Implement Synthetic for 'global_ctrl'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'TIELBWP' in the library 'tcbn40lpbwpwc_ccs' is not characterized for internal power. (PWR-536)
+Information: The library cell 'TIEHBWP' in the library 'tcbn40lpbwpwc_ccs' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS3DGZ' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS2DGZ' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS2ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS1DGZ' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS1ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD2POC' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD2DGZ' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD2ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD1DGZ' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD1ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PCLAMP2ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PCLAMP1ANA' in the library 'tpfn40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS3AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS3A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS2AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVSS2A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD3AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVDD3A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PVBUS' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB3AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB3A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB2AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB2A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB1AC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PDB1A' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PCLAMPAC' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PCLAMPA' in the library 'tpan40lpgv2od3wc' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:11     429.5      0.00       0.0    6457.7                            183.0212
+    0:00:11     429.5      0.00       0.0    6457.7                            183.0212
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:12     428.8      0.00       0.0    6457.7                            218.2256
+    0:00:12     428.8      0.00       0.0    6457.7                            218.2256
+    0:00:12     428.8      0.00       0.0    6457.7                            218.2256
+    0:00:13     428.8      0.00       0.0    6457.7                            218.2256
+    0:00:13     428.3      0.00       0.0    6457.7                            218.2242
+    0:00:13     428.3      0.00       0.0    6457.7                            218.2242
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:13     428.8      0.00       0.0    6457.7                            217.9826
+    0:00:13     428.8      0.00       0.0    6457.7                            217.9826
+    0:00:13     428.8      0.00       0.0    6457.7                            217.9826
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:13     428.7      0.00       0.0    6457.7                            182.2533
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+    0:00:13     492.2      0.00       0.0       0.0                            259.1830
+    0:00:13     492.2      0.00       0.0       0.0                            259.1830
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:13     492.2      0.00       0.0       0.0                            259.1830
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+    0:00:13     492.2      0.00       0.0       0.0                            258.9261
+    0:00:13     492.2      0.00       0.0       0.0                            258.9261
+    0:00:13     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:14     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+    0:00:15     492.2      0.00       0.0       0.0                            258.9261
+Loading db file '/home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Front_End/timing_power_noise/CCS/tcbn40lpbwp_200a/tcbn40lpbwpwc_ccs.db'
+Loading db file '/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpfn40lpgv2od3_130c/tpfn40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpfn40lpgv2od3_120a/tpfn40lpgv2od3wc.db'
+Loading db file '/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpan40lpgv2od3_130a/tpan40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpan40lpgv2od3_120a/tpan40lpgv2od3wc.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+  Loading target library 'tpfn40lpgv2od3wc'
+  Loading target library 'tpan40lpgv2od3wc'
+Warning: IO pad 'PVSS3DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS1DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2POC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD1DGZ' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMP2ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMP1ANA' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVSS2A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVDD3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PVBUS' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB3AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB3A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB2AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB2A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB1AC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PDB1A' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMPAC' is unusable: unknown logic function.  (OPT-1022)
+Warning: IO pad 'PCLAMPA' is unusable: unknown logic function.  (OPT-1022)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1

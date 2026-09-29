@@ -1,0 +1,118 @@
+/////////////////////////////////////////////////////////////
+// Created by: Synopsys DC Ultra(TM) in wire load mode
+// Version   : S-2021.06-SP1
+// Date      : Tue Apr 28 12:33:53 2026
+/////////////////////////////////////////////////////////////
+
+
+module padframe ( pad_tst_us_sel_2, pad_tst_us_sel_1, pad_tst_us_sel_0, 
+        pad_tst_clk, pad_tst_en_g, pad_tst_wr_data_in_g, pad_tst_p_en, 
+        pad_rstn, pad_clk, pad_en_g, pad_wr_data_in_g, pad_p_en, 
+        pad_tst_b2_ctrl, tst_couple_en, tst_rd_vld_g, tst_rd_data_out_g, 
+        tst_p_out_vld_g, tst_p_out_g, rd_data_out_g, rd_vld_g, p_out_vld_g, 
+        p_out_g, couple_en, tst_us_sel_2, tst_us_sel_1, tst_us_sel_0, tst_clk, 
+        tst_en_g, tst_wr_data_in_g, tst_p_en, rstn, clk, en_g, wr_data_in_g, 
+        p_en, tst_b2_ctrl, pad_tst_couple_en, pad_tst_rd_vld_g, 
+        pad_tst_rd_data_out_g, pad_tst_p_out_vld_g, pad_tst_p_out_g, 
+        pad_rd_data_out_g, pad_rd_vld_g, pad_p_out_vld_g, pad_p_out_g, 
+        pad_couple_en, tst_je_ro_1, tst_je_ro_2, tst_zq_ro_1, tst_zq_ro_2, 
+        tst_zq_ro_3, tst_ro_tst, tst_b3_f, p_mod, p_ota_vb, b3_cvb, cp_sel, 
+        b2_cvb2, b2_cvb1, osc_vb, tst_p_ota_vb, tst_cp_sel, tst_p_mod, 
+        tst_b3_cvb, tst_b2_cvb2, tst_b2_cvb1, tst_osc_vb, tst_us_ro_0, 
+        tst_us_ro_1, tst_us_ro_2, tst_sabil_bk, sabil_bk );
+  input [3:0] pad_tst_us_sel_2;
+  input [3:0] pad_tst_us_sel_1;
+  input [3:0] pad_tst_us_sel_0;
+  input [5:0] pad_tst_b2_ctrl;
+  output [3:0] tst_us_sel_2;
+  output [3:0] tst_us_sel_1;
+  output [3:0] tst_us_sel_0;
+  output [5:0] tst_b2_ctrl;
+  inout [4:0] tst_b3_f;
+  input pad_tst_clk, pad_tst_en_g, pad_tst_wr_data_in_g, pad_tst_p_en,
+         pad_rstn, pad_clk, pad_en_g, pad_wr_data_in_g, pad_p_en,
+         tst_couple_en, tst_rd_vld_g, tst_rd_data_out_g, tst_p_out_vld_g,
+         tst_p_out_g, rd_data_out_g, rd_vld_g, p_out_vld_g, p_out_g, couple_en;
+  output tst_clk, tst_en_g, tst_wr_data_in_g, tst_p_en, rstn, clk, en_g,
+         wr_data_in_g, p_en, pad_tst_couple_en, pad_tst_rd_vld_g,
+         pad_tst_rd_data_out_g, pad_tst_p_out_vld_g, pad_tst_p_out_g,
+         pad_rd_data_out_g, pad_rd_vld_g, pad_p_out_vld_g, pad_p_out_g,
+         pad_couple_en;
+  inout tst_je_ro_1,  tst_je_ro_2,  tst_zq_ro_1,  tst_zq_ro_2,  tst_zq_ro_3, 
+     tst_ro_tst,  p_mod,  p_ota_vb,  b3_cvb,  cp_sel,  b2_cvb2,  b2_cvb1, 
+     osc_vb,  tst_p_ota_vb,  tst_cp_sel,  tst_p_mod,  tst_b3_cvb,  tst_b2_cvb2, 
+     tst_b2_cvb1,  tst_osc_vb,  tst_us_ro_0,  tst_us_ro_1,  tst_us_ro_2, 
+     tst_sabil_bk,  sabil_bk;
+
+
+  PDDDGZ io_tst_us_sel_2_2 ( .PAD(pad_tst_us_sel_2[2]), .C(tst_us_sel_2[2]) );
+  PDDDGZ io_tst_us_sel_2_1 ( .PAD(pad_tst_us_sel_2[1]), .C(tst_us_sel_2[1]) );
+  PDDDGZ io_tst_us_sel_2_0 ( .PAD(pad_tst_us_sel_2[0]), .C(tst_us_sel_2[0]) );
+  PDDDGZ io_tst_us_sel_1_3 ( .PAD(pad_tst_us_sel_1[3]), .C(tst_us_sel_1[3]) );
+  PDDDGZ io_tst_us_sel_1_2 ( .PAD(pad_tst_us_sel_1[2]), .C(tst_us_sel_1[2]) );
+  PDDDGZ io_tst_us_sel_1_1 ( .PAD(pad_tst_us_sel_1[1]), .C(tst_us_sel_1[1]) );
+  PDDDGZ io_tst_us_sel_1_0 ( .PAD(pad_tst_us_sel_1[0]), .C(tst_us_sel_1[0]) );
+  PDDDGZ io_tst_us_sel_0_3 ( .PAD(pad_tst_us_sel_0[3]), .C(tst_us_sel_0[3]) );
+  PDDDGZ io_tst_us_sel_0_2 ( .PAD(pad_tst_us_sel_0[2]), .C(tst_us_sel_0[2]) );
+  PDDDGZ io_tst_us_sel_0_1 ( .PAD(pad_tst_us_sel_0[1]), .C(tst_us_sel_0[1]) );
+  PDDDGZ io_tst_us_sel_0_0 ( .PAD(pad_tst_us_sel_0[0]), .C(tst_us_sel_0[0]) );
+  PDDDGZ io_tst_clk ( .PAD(pad_tst_clk), .C(tst_clk) );
+  PDDDGZ io_tst_en_g ( .PAD(pad_tst_en_g), .C(tst_en_g) );
+  PDDDGZ io_tst_wr_data_in_g ( .PAD(pad_tst_wr_data_in_g), .C(tst_wr_data_in_g) );
+  PDDDGZ io_tst_p_en ( .PAD(pad_tst_p_en), .C(tst_p_en) );
+  PDDDGZ io_tst_b2_ctrl_0 ( .PAD(pad_tst_b2_ctrl[0]), .C(tst_b2_ctrl[0]) );
+  PDDDGZ io_tst_b2_ctrl_1 ( .PAD(pad_tst_b2_ctrl[1]), .C(tst_b2_ctrl[1]) );
+  PDDDGZ io_tst_b2_ctrl_2 ( .PAD(pad_tst_b2_ctrl[2]), .C(tst_b2_ctrl[2]) );
+  PDDDGZ io_tst_b2_ctrl_3 ( .PAD(pad_tst_b2_ctrl[3]), .C(tst_b2_ctrl[3]) );
+  PDDDGZ io_tst_b2_ctrl_4 ( .PAD(pad_tst_b2_ctrl[4]), .C(tst_b2_ctrl[4]) );
+  PDDDGZ io_tst_b2_ctrl_5 ( .PAD(pad_tst_b2_ctrl[5]), .C(tst_b2_ctrl[5]) );
+  PDDDGZ io_rstn ( .PAD(pad_rstn), .C(rstn) );
+  PDDDGZ io_clk ( .PAD(pad_clk), .C(clk) );
+  PDDDGZ io_en_g ( .PAD(pad_en_g), .C(en_g) );
+  PDDDGZ io_wr_data_in_g ( .PAD(pad_wr_data_in_g), .C(wr_data_in_g) );
+  PDDDGZ io_p_en ( .PAD(pad_p_en), .C(p_en) );
+  PDDDGZ io_tst_us_sel_2_3 ( .PAD(pad_tst_us_sel_2[3]), .C(tst_us_sel_2[3]) );
+  PDO24CDG io_tst_couple_en ( .I(tst_couple_en), .PAD(pad_tst_couple_en) );
+  PDO24CDG io_tst_rd_vld_g ( .I(tst_rd_vld_g), .PAD(pad_tst_rd_vld_g) );
+  PDO24CDG io_tst_rd_data_out_g ( .I(tst_rd_data_out_g), .PAD(
+        pad_tst_rd_data_out_g) );
+  PDO24CDG io_tst_p_out_vld_g ( .I(tst_p_out_vld_g), .PAD(pad_tst_p_out_vld_g)
+         );
+  PDO24CDG io_tst_p_out_g ( .I(tst_p_out_g), .PAD(pad_tst_p_out_g) );
+  PDO24CDG io_rd_data_out_g ( .I(rd_data_out_g), .PAD(pad_rd_data_out_g) );
+  PDO24CDG io_rd_vld_g ( .I(rd_vld_g), .PAD(pad_rd_vld_g) );
+  PDO24CDG io_p_out_vld_g ( .I(p_out_vld_g), .PAD(pad_p_out_vld_g) );
+  PDO24CDG io_p_out_g ( .I(p_out_g), .PAD(pad_p_out_g) );
+  PDO24CDG io_couple_en ( .I(couple_en), .PAD(pad_couple_en) );
+  PDB3AC io_tst_je_ro_1 ( .AIO(tst_je_ro_1) );
+  PDB3AC io_tst_je_ro_2 ( .AIO(tst_je_ro_2) );
+  PDB3AC io_tst_zq_ro_1 ( .AIO(tst_zq_ro_1) );
+  PDB3AC io_tst_zq_ro_2 ( .AIO(tst_zq_ro_2) );
+  PDB3AC io_tst_zq_ro_3 ( .AIO(tst_zq_ro_3) );
+  PDB3AC io_tst_ro_tst ( .AIO(tst_ro_tst) );
+  PDB3AC io_tst_b3_f_0 ( .AIO(tst_b3_f[0]) );
+  PDB3AC io_tst_b3_f_1 ( .AIO(tst_b3_f[1]) );
+  PDB3AC io_tst_b3_f_2 ( .AIO(tst_b3_f[2]) );
+  PDB3AC io_tst_b3_f_3 ( .AIO(tst_b3_f[3]) );
+  PDB3AC io_tst_b3_f_4 ( .AIO(tst_b3_f[4]) );
+  PDB3AC io_p_mod ( .AIO(p_mod) );
+  PDB3AC io_p_ota_vb ( .AIO(p_ota_vb) );
+  PDB3AC io_b3_cvb ( .AIO(b3_cvb) );
+  PDB3AC io_cp_sel ( .AIO(cp_sel) );
+  PDB3AC io_b2_cvb2 ( .AIO(b2_cvb2) );
+  PDB3AC io_b2_cvb1 ( .AIO(b2_cvb1) );
+  PDB3AC io_osc_vb ( .AIO(osc_vb) );
+  PDB3AC io_tst_p_ota_vb ( .AIO(tst_p_ota_vb) );
+  PDB3AC io_tst_cp_sel ( .AIO(tst_cp_sel) );
+  PDB3AC io_tst_p_mod ( .AIO(tst_p_mod) );
+  PDB3AC io_tst_b3_cvb ( .AIO(tst_b3_cvb) );
+  PDB3AC io_tst_b2_cvb2 ( .AIO(tst_b2_cvb2) );
+  PDB3AC io_tst_b2_cvb1 ( .AIO(tst_b2_cvb1) );
+  PDB3AC io_tst_osc_vb ( .AIO(tst_osc_vb) );
+  PDB3AC io_tst_us_ro_0 ( .AIO(tst_us_ro_0) );
+  PDB3AC io_tst_us_ro_1 ( .AIO(tst_us_ro_1) );
+  PDB3AC io_tst_us_ro_2 ( .AIO(tst_us_ro_2) );
+  PDB3AC io_tst_sabil_bk ( .AIO(tst_sabil_bk) );
+  PDB3AC io_sabil_bk ( .AIO(sabil_bk) );
+endmodule
+

@@ -1,0 +1,128 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : global_ctrl
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 19:24:57 2026
+****************************************
+
+Operating Conditions: WCCOM   Library: tcbn40lpbwpwc_ccs
+Wire Load Model Mode: segmented
+
+  Startpoint: p_out_bus[5]
+              (input port clocked by clk)
+  Endpoint: p_out_g_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  global_ctrl        ZeroWireload          tcbn40lpbwpwc_ccs
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     5.00       5.00 r
+  p_out_bus[5] (in)                        0.00       5.00 r
+  U327/ZN (AOI22D0BWP)                     0.13       5.13 f
+  U328/ZN (ND3D0BWP)                       0.06       5.20 r
+  U329/ZN (AOI32D0BWP)                     0.08       5.28 f
+  U330/ZN (AOI31D0BWP)                     0.15       5.43 r
+  p_out_g_reg/D (DFCNQD1BWP)               0.00       5.43 r
+  data arrival time                                   5.43
+
+  clock clk (rise edge)                    9.50       9.50
+  clock network delay (ideal)              0.00       9.50
+  clock uncertainty                       -0.20       9.30
+  p_out_g_reg/CP (DFCNQD1BWP)              0.00       9.30 r
+  library setup time                       0.02       9.32
+  data required time                                  9.32
+  -----------------------------------------------------------
+  data required time                                  9.32
+  data arrival time                                  -5.43
+  -----------------------------------------------------------
+  slack (MET)                                         3.89
+
+
+  Startpoint: couple_en_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: couple_en (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  global_ctrl        ZeroWireload          tcbn40lpbwpwc_ccs
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  couple_en_reg/CP (DFCNQD1BWP)            0.00       0.00 r
+  couple_en_reg/Q (DFCNQD1BWP)             0.38       0.38 f
+  U196/ZN (INVD0BWP)                       0.08       0.47 r
+  U197/ZN (CKND6BWP)                       0.20       0.66 f
+  couple_en (out)                          0.00       0.66 f
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    9.50       9.50
+  clock network delay (ideal)              0.00       9.50
+  clock uncertainty                       -0.20       9.30
+  output external delay                   -5.00       4.30
+  data required time                                  4.30
+  -----------------------------------------------------------
+  data required time                                  4.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         3.64
+
+
+  Startpoint: col_id_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: col_id_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  global_ctrl        ZeroWireload          tcbn40lpbwpwc_ccs
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  col_id_reg[0]/CP (DFCNQD1BWP)            0.00       0.00 r
+  col_id_reg[0]/Q (DFCNQD1BWP)             0.38       0.38 r
+  U267/ZN (CKND2D0BWP)                     0.08       0.46 f
+  U272/ZN (INVD0BWP)                       0.07       0.53 r
+  U273/ZN (CKND2D0BWP)                     0.09       0.62 f
+  U275/ZN (NR2D0BWP)                       0.12       0.74 r
+  U276/ZN (CKND2D0BWP)                     0.12       0.86 f
+  U283/ZN (NR2D0BWP)                       0.12       0.99 r
+  U295/ZN (CKND2D0BWP)                     0.12       1.11 f
+  U299/ZN (NR2D0BWP)                       0.12       1.23 r
+  U301/ZN (OAI21D0BWP)                     0.09       1.32 f
+  U302/ZN (AOI21D0BWP)                     0.11       1.44 r
+  col_id_reg[8]/D (DFCNQD1BWP)             0.00       1.44 r
+  data arrival time                                   1.44
+
+  clock clk (rise edge)                    9.50       9.50
+  clock network delay (ideal)              0.00       9.50
+  clock uncertainty                       -0.20       9.30
+  col_id_reg[8]/CP (DFCNQD1BWP)            0.00       9.30 r
+  library setup time                       0.03       9.33
+  data required time                                  9.33
+  -----------------------------------------------------------
+  data required time                                  9.33
+  data arrival time                                  -1.44
+  -----------------------------------------------------------
+  slack (MET)                                         7.89
+
+
+1

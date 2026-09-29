@@ -1,0 +1,421 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "padframe")
+(DATE "Tue Apr 28 12:33:53 2026")
+(VENDOR "tcbn40lpbwpwc_ccs")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "S-2021.06-SP1")
+(DIVIDER /)
+(VOLTAGE 0.99:0.99:0.99)
+(PROCESS "WCCOM")
+(TEMPERATURE 125.00:125.00:125.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "padframe")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT sabil_bk io_sabil_bk/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_sabil_bk io_tst_sabil_bk/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_us_ro_2 io_tst_us_ro_2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_us_ro_1 io_tst_us_ro_1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_us_ro_0 io_tst_us_ro_0/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_osc_vb io_tst_osc_vb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b2_cvb1 io_tst_b2_cvb1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b2_cvb2 io_tst_b2_cvb2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_cvb io_tst_b3_cvb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_p_mod io_tst_p_mod/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_cp_sel io_tst_cp_sel/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_p_ota_vb io_tst_p_ota_vb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT osc_vb io_osc_vb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT b2_cvb1 io_b2_cvb1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT b2_cvb2 io_b2_cvb2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT cp_sel io_cp_sel/AIO (0.000:0.000:0.000))
+    (INTERCONNECT b3_cvb io_b3_cvb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT p_ota_vb io_p_ota_vb/AIO (0.000:0.000:0.000))
+    (INTERCONNECT p_mod io_p_mod/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_f[4] io_tst_b3_f_4/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_f[3] io_tst_b3_f_3/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_f[2] io_tst_b3_f_2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_f[1] io_tst_b3_f_1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_b3_f[0] io_tst_b3_f_0/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_ro_tst io_tst_ro_tst/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_zq_ro_3 io_tst_zq_ro_3/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_zq_ro_2 io_tst_zq_ro_2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_zq_ro_1 io_tst_zq_ro_1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_je_ro_2 io_tst_je_ro_2/AIO (0.000:0.000:0.000))
+    (INTERCONNECT tst_je_ro_1 io_tst_je_ro_1/AIO (0.000:0.000:0.000))
+    (INTERCONNECT couple_en io_couple_en/I (0.000:0.000:0.000))
+    (INTERCONNECT p_out_g io_p_out_g/I (0.000:0.000:0.000))
+    (INTERCONNECT p_out_vld_g io_p_out_vld_g/I (0.000:0.000:0.000))
+    (INTERCONNECT rd_vld_g io_rd_vld_g/I (0.000:0.000:0.000))
+    (INTERCONNECT rd_data_out_g io_rd_data_out_g/I (0.000:0.000:0.000))
+    (INTERCONNECT tst_p_out_g io_tst_p_out_g/I (0.000:0.000:0.000))
+    (INTERCONNECT tst_p_out_vld_g io_tst_p_out_vld_g/I (0.000:0.000:0.000))
+    (INTERCONNECT tst_rd_data_out_g io_tst_rd_data_out_g/I (0.000:0.000:0.000))
+    (INTERCONNECT tst_rd_vld_g io_tst_rd_vld_g/I (0.000:0.000:0.000))
+    (INTERCONNECT tst_couple_en io_tst_couple_en/I (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_2[3] io_tst_us_sel_2_3/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_p_en io_p_en/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_wr_data_in_g io_wr_data_in_g/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_en_g io_en_g/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_clk io_clk/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_rstn io_rstn/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[5] io_tst_b2_ctrl_5/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[4] io_tst_b2_ctrl_4/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[3] io_tst_b2_ctrl_3/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[2] io_tst_b2_ctrl_2/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[1] io_tst_b2_ctrl_1/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_b2_ctrl[0] io_tst_b2_ctrl_0/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_p_en io_tst_p_en/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_wr_data_in_g io_tst_wr_data_in_g/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_en_g io_tst_en_g/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_clk io_tst_clk/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_0[0] io_tst_us_sel_0_0/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_0[1] io_tst_us_sel_0_1/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_0[2] io_tst_us_sel_0_2/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_0[3] io_tst_us_sel_0_3/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_1[0] io_tst_us_sel_1_0/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_1[1] io_tst_us_sel_1_1/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_1[2] io_tst_us_sel_1_2/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_1[3] io_tst_us_sel_1_3/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_2[0] io_tst_us_sel_2_0/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_2[1] io_tst_us_sel_2_1/PAD (0.000:0.000:0.000))
+    (INTERCONNECT pad_tst_us_sel_2[2] io_tst_us_sel_2_2/PAD (0.000:0.000:0.000))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_couple_en)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_p_out_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_p_out_vld_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_rd_vld_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_rd_data_out_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_tst_p_out_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_tst_p_out_vld_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_tst_rd_data_out_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_tst_rd_vld_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDO24CDG")
+  (INSTANCE io_tst_couple_en)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH I PAD (2.257:2.257:2.257) (2.140:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_2_3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_p_en)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_wr_data_in_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_en_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_clk)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_rstn)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_5)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_b2_ctrl_0)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_p_en)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_wr_data_in_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_en_g)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_clk)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_0_0)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_0_1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_0_2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_0_3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_1_0)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_1_1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_1_2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_1_3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_2_0)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_2_1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "PDDDGZ")
+  (INSTANCE io_tst_us_sel_2_2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH PAD C (0.585:0.585:0.585) (0.536:0.536:0.536))
+    )
+  )
+)
+)

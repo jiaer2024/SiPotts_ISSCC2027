@@ -1,0 +1,4 @@
+mkdir -p work/local_ctrl_row rpt/local_ctrl_row output/local_ctrl_row 
+
+clear
+time dc_shell-xg-t -64 -f script/local_ctrl_row_script.tcl | tee -i logs/local_ctrl_row.log

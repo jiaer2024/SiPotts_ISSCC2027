@@ -1,0 +1,161 @@
+ 
+****************************************
+Report : path_group
+Design : global_ctrl
+Version: S-2021.06-SP1
+Date   : Tue Apr 28 19:24:57 2026
+****************************************
+
+                        Critical
+Group Name    Weight    Range
+--------------------------------------------------------------------------------
+**default**   1.00      0.00                 
+COMBO         1.00      1.00                 
+INPUTS        1.00      1.00                 
+OUTPUTS       1.00      1.00                 
+clk           1.00      0.00                 
+
+Path Group COMBO:
+	-from    { clk\
+		   rstn\
+		   p_en\
+		   en_g\
+		   wr_data_in_g\
+		   rd_vld_bus[7]\
+		   rd_vld_bus[6]\
+		   rd_vld_bus[5]\
+		   rd_vld_bus[4]\
+		   rd_vld_bus[3]\
+		   rd_vld_bus[2]\
+		   rd_vld_bus[1]\
+		   rd_vld_bus[0]\
+		   rd_data_out_bus[7]\
+		   rd_data_out_bus[6]\
+		   rd_data_out_bus[5]\
+		   rd_data_out_bus[4]\
+		   rd_data_out_bus[3]\
+		   rd_data_out_bus[2]\
+		   rd_data_out_bus[1]\
+		   rd_data_out_bus[0]\
+		   p_out_vld_bus[7]\
+		   p_out_vld_bus[6]\
+		   p_out_vld_bus[5]\
+		   p_out_vld_bus[4]\
+		   p_out_vld_bus[3]\
+		   p_out_vld_bus[2]\
+		   p_out_vld_bus[1]\
+		   p_out_vld_bus[0]\
+		   p_out_bus[7]\
+		   p_out_bus[6]\
+		   p_out_bus[5]\
+		   p_out_bus[4]\
+		   p_out_bus[3]\
+		   p_out_bus[2]\
+		   p_out_bus[1]\
+		   p_out_bus[0] }\
+	-to      { couple_en\
+		   wr_data_in_g_d2\
+		   rd_vld_g\
+		   rd_data_out_g\
+		   wr_vld_bus[7]\
+		   wr_vld_bus[6]\
+		   wr_vld_bus[5]\
+		   wr_vld_bus[4]\
+		   wr_vld_bus[3]\
+		   wr_vld_bus[2]\
+		   wr_vld_bus[1]\
+		   wr_vld_bus[0]\
+		   rd_rdy_bus[7]\
+		   rd_rdy_bus[6]\
+		   rd_rdy_bus[5]\
+		   rd_rdy_bus[4]\
+		   rd_rdy_bus[3]\
+		   rd_rdy_bus[2]\
+		   rd_rdy_bus[1]\
+		   rd_rdy_bus[0]\
+		   p_code_vld_bus[7]\
+		   p_code_vld_bus[6]\
+		   p_code_vld_bus[5]\
+		   p_code_vld_bus[4]\
+		   p_code_vld_bus[3]\
+		   p_code_vld_bus[2]\
+		   p_code_vld_bus[1]\
+		   p_code_vld_bus[0]\
+		   p_out_vld_g\
+		   p_out_g }
+
+Path Group INPUTS:
+	-from    rstn
+	-from    { clk\
+		   p_en\
+		   en_g\
+		   wr_data_in_g\
+		   rd_vld_bus[7]\
+		   rd_vld_bus[6]\
+		   rd_vld_bus[5]\
+		   rd_vld_bus[4]\
+		   rd_vld_bus[3]\
+		   rd_vld_bus[2]\
+		   rd_vld_bus[1]\
+		   rd_vld_bus[0]\
+		   rd_data_out_bus[7]\
+		   rd_data_out_bus[6]\
+		   rd_data_out_bus[5]\
+		   rd_data_out_bus[4]\
+		   rd_data_out_bus[3]\
+		   rd_data_out_bus[2]\
+		   rd_data_out_bus[1]\
+		   rd_data_out_bus[0]\
+		   p_out_vld_bus[7]\
+		   p_out_vld_bus[6]\
+		   p_out_vld_bus[5]\
+		   p_out_vld_bus[4]\
+		   p_out_vld_bus[3]\
+		   p_out_vld_bus[2]\
+		   p_out_vld_bus[1]\
+		   p_out_vld_bus[0]\
+		   p_out_bus[7]\
+		   p_out_bus[6]\
+		   p_out_bus[5]\
+		   p_out_bus[4]\
+		   p_out_bus[3]\
+		   p_out_bus[2]\
+		   p_out_bus[1]\
+		   p_out_bus[0] }
+
+Path Group OUTPUTS:
+	-to      { couple_en\
+		   wr_data_in_g_d2\
+		   rd_vld_g\
+		   rd_data_out_g\
+		   wr_vld_bus[7]\
+		   wr_vld_bus[6]\
+		   wr_vld_bus[5]\
+		   wr_vld_bus[4]\
+		   wr_vld_bus[3]\
+		   wr_vld_bus[2]\
+		   wr_vld_bus[1]\
+		   wr_vld_bus[0]\
+		   rd_rdy_bus[7]\
+		   rd_rdy_bus[6]\
+		   rd_rdy_bus[5]\
+		   rd_rdy_bus[4]\
+		   rd_rdy_bus[3]\
+		   rd_rdy_bus[2]\
+		   rd_rdy_bus[1]\
+		   rd_rdy_bus[0]\
+		   p_code_vld_bus[7]\
+		   p_code_vld_bus[6]\
+		   p_code_vld_bus[5]\
+		   p_code_vld_bus[4]\
+		   p_code_vld_bus[3]\
+		   p_code_vld_bus[2]\
+		   p_code_vld_bus[1]\
+		   p_code_vld_bus[0]\
+		   p_out_vld_g\
+		   p_out_g }
+
+Path Group clk:
+	-to      clk
+
+1

@@ -1,0 +1,4 @@
+mkdir -p work/padframe rpt/padframe output/padframe 
+
+clear
+time dc_shell-xg-t -64 -f script/padframe_script.tcl | tee -i logs/padframe.log

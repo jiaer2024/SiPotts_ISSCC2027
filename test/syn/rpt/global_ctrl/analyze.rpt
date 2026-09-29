@@ -1,0 +1,10 @@
+Running PRESTO HDLC
+Compiling source file ./../verilog/rtl/global_ctrl.v
+Opening include file ./../verilog/rtl/../rtl/define.v
+Presto compilation completed successfully.
+Loading db file '/home/yingna/project/tsmcN40_1p9m/stdcell/TSMCHOME/digital/Front_End/timing_power_noise/CCS/tcbn40lpbwp_200a/tcbn40lpbwpwc_ccs.db'
+Information: Using CCS timing libraries. (TIM-024)
+Loading db file '/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpfn40lpgv2od3_130c/tpfn40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpfn40lpgv2od3_120a/tpfn40lpgv2od3wc.db'
+Loading db file '/home/yingna/project/tsmcN40_1p9m/IO/tsmcN40_1p9m_IO/tpan40lpgv2od3_130a/tpan40lpgv2od3_120a_nldm/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tpan40lpgv2od3_120a/tpan40lpgv2od3wc.db'
+Loading db file '/opt/synopsys-new/design-compiler/installed/libraries/syn/dw_foundation.sldb'
+1

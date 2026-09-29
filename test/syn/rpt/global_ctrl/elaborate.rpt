@@ -1,0 +1,184 @@
+Loading db file '/opt/synopsys-new/design-compiler/installed/libraries/syn/gtech.db'
+Loading db file '/opt/synopsys-new/design-compiler/installed/libraries/syn/standard.sldb'
+  Loading link library 'tcbn40lpbwpwc_ccs'
+  Loading link library 'tpfn40lpgv2od3wc'
+  Loading link library 'tpan40lpgv2od3wc'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ./../verilog/rtl/global_ctrl.v:119: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:119: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:125: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:125: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:144: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:205: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:205: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:222: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:241: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:282: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:283: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./../verilog/rtl/global_ctrl.v:116: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 115 in file
+	'./../verilog/rtl/global_ctrl.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           116            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 201 in file
+	'./../verilog/rtl/global_ctrl.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           202            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 213 in file
+	'./../verilog/rtl/global_ctrl.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           218            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 81 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| wr_data_in_g_d2_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     en_g_d1_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| wr_data_in_g_d1_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 93 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     p_en_d2_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     p_en_d1_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 108 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  ul_cur_state_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 135 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     row_id_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     col_id_reg      | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 156 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    couple_en_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    rd_row_id_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 171 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  rd_row_id_d1_reg   | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+| ul_cur_state_d1_reg | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 181 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  rd_data_out_g_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    rd_vld_g_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 194 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  dl_cur_state_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 213 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  phase_row_id_reg   | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  phase_col_id_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 236 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| p_code_vld_bus_reg  | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 246 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| phase_row_id_d2_reg | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+| dl_cur_state_d1_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| dl_cur_state_d2_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| phase_row_id_d1_reg | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 260 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     p_out_g_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   p_out_vld_g_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine global_ctrl line 274 in file
+		'./../verilog/rtl/global_ctrl.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   wr_vld_bus_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   rd_rdy_bus_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+| global_ctrl/186  |   8    |    2    |      3       |
+| global_ctrl/265  |   8    |    2    |      3       |
+======================================================
+Presto compilation completed successfully. (global_ctrl)
+Elaborated 1 design.
+Current design is now 'global_ctrl'.
+1
