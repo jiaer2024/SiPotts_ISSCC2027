@@ -1,4 +1,0 @@
-mkdir -p work/global_ctrl rpt/global_ctrl output/global_ctrl 
-
-clear
-time dc_shell-xg-t -64 -f script/global_ctrl_script.tcl | tee -i logs/global_ctrl.log
